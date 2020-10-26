@@ -1,0 +1,201 @@
+*{
+  padding:0;
+  margin: 0;
+  list-style:none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #efefef;
+  font-family: sans-serif;
+}
+
+section{
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+h1{
+  font-size: 36px;
+  color:#281E5D;
+}
+
+h2{
+  font-size:24px;
+  color:#281E5D;
+}
+
+ul{
+  padding-left: 20px;
+}
+
+li{
+  list-style-type: circle;
+  color: #FF087F;
+}
+
+a{
+  color:#281E5D;
+  text-decoration: none;
+}
+
+a:hover{
+  colour:#281E5D;
+}
+
+p{
+  font-size: 18px;
+  color:#281E5D;
+}
+
+
+th {
+  text-align: right;
+  color:#281E5D;
+}
+
+video,img {
+  height: 60%;
+  width: 90%;
+  padding: 20px;
+}
+
+nav{
+  background-color: #F9E076;
+  height:80px;
+  width: 100%;
+}
+
+label.name{
+  color: #281E5D;
+  font-size:45px;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+nav ul{
+  float:right;
+  margin-right: 30px;
+}
+
+nav ul li{
+  display:inline-block;
+  line-height: 80px;
+  margin: 0 4px;
+}
+
+nav ul li a{
+  color: #281E5D;
+  font-size: 26px;
+  padding:8px 14px;
+  border-radius: 4px;
+}
+
+a.active,a:hover{
+  background:#FFFFDD;
+  transition:.3s;
+}
+
+a.pokeLink{
+  font-size: 20px;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: #281E5D;
+  float:right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor:pointer;
+  display:none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width:952px){
+  label.name{
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  nav ul li a{
+    font-sixe:16px;
+  }
+
+  img.myimage {
+          display:block;
+          margin-left: 100px;
+          margin-right: 100px;
+          width:800px;
+          height:400px;"
+      }
+      video{
+        display:none;
+        }
+  p.description{
+    display: none;
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display:block;
+  }
+  ul{
+    position: fixed;
+    width:100%
+    height: 100vh;
+    background-color: #281E5D;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  nav ul li{
+    display:block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font size: 22px;
+  }
+  a:hover,a.active{
+    background:none;
+    color:white;
+  }
+  #check:checked ~ ul{
+    left:0;
+  }
+
+  img.myimage {
+          display:block;
+          margin-left: 100px;
+          margin-right: 100px;
+          width:300px;
+          height:150px;"
+      }
+  video{
+    display:none;
+      }
+
+  p.description{
+      display: none;
+        }
+
+}
+
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+}
+
+.myimage {
+        display:block;
+        margin-left: 40px;
+        margin-right: 100px;
+        width:1200px;
+        height:600px;
+    }
